@@ -1,0 +1,73 @@
+QCheckBox {
+    spacing: 5px;
+}
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+}
+
+QCheckBox::indicator:unchecked {
+    image: url(':/images/unchecked.png');
+}
+
+QCheckBox::indicator:checked {
+    image: url(':/images/checked.png');
+}
+
+QDateEdit {
+    background-color: #ffffff;
+    border: none;
+    padding: 4px;
+    min-width: 100px;
+}
+
+QScrollBar:horizontal {
+    height: 10px;
+    margin: 0;
+}
+
+QScrollBar::handle:horizontal {
+    min-width: 16px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    min-height: 16px;
+    border-radius: 5px;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal,
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal,
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+}
+
+QPushButton {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 4px 22px;
+}
+
+QPushButton:hover {
+    color: #AFBDC4;
+}
+
+QPushButton:pressed {
+    color: #FFFFFF;
+}
+
+QLineEdit {
+    border: 1px solid transparent;
+    color: #546E7A;
+}
+
+QAbstractScrollArea  {
+    border: 0;
+}

@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="checked.png">icons/checked.png</file>
+        <file alias="unchecked.png">icons/unchecked.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file alias="style_light.qss">../stylesheets/style_light.qss</file>
+        <file alias="testList.csv">../testList/testList.csv</file>
+    </qresource>
+</RCC>
